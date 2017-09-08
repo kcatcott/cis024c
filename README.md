@@ -1,3 +1,3 @@
 # cis024c
 cis024c
-this is for class work
+\n this is for class work
