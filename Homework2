@@ -1,0 +1,280 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "Python 2.7.13 :: Anaconda 4.4.0 (64-bit)\n"
+     ]
+    }
+   ],
+   "source": [
+    "!python --version\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Please type any number: 1001\n",
+      "Found a number greater than 100\n"
+     ]
+    }
+   ],
+   "source": [
+    "### Exercise 1\n",
+    "\n",
+    "numberCheck = int(raw_input(\"Please type any number: \"))\n",
+    "if numberCheck >= 100:\n",
+    "    print \"Found a number greater than 100\"\n",
+    "\n",
+    "### END CODE"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Please type your name: Joe\n",
+      "User Joe was entered\n"
+     ]
+    }
+   ],
+   "source": [
+    "### Exercise 2\n",
+    "\n",
+    "userName = raw_input(\"Please type your name: \")\n",
+    "if userName == \"Joe\":\n",
+    "    print \"User Joe was entered\"\n",
+    "else:\n",
+    "    print \"User Joe was not entered\"\n",
+    "    \n",
+    "### END CODE"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Please enter your Salary: 70000\n",
+      "User salary is less than $100,000\n"
+     ]
+    }
+   ],
+   "source": [
+    "### Exercise 3\n",
+    "\n",
+    "salary = int(raw_input(\"Please enter your Salary: \"))\n",
+    "\n",
+    "if salary <= 69999:\n",
+    "    print \"User salary is less than $70,000\"\n",
+    "elif salary <=99999:\n",
+    "    print \"User salary is less than $100,000\"\n",
+    "else:\n",
+    "    print \"User salary is greater than or equal to $100,000\"\n",
+    "    \n",
+    "### END CODE"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "pleas pick any number: 10\n",
+      "55\n"
+     ]
+    }
+   ],
+   "source": [
+    "### Exercise 4\n",
+    "\n",
+    "total = int(raw_input(\"pleas pick any number: \"))\n",
+    "for index in range (1,total):\n",
+    "    total = total + index\n",
+    "print total\n",
+    "\n",
+    "### END CODE"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "enter a number: 56\n",
+      "keep on guessing...\n",
+      "enter a number: 45\n",
+      "keep on guessing...\n",
+      "enter a number: 9\n",
+      "Yippee! User guessed the right number\n"
+     ]
+    }
+   ],
+   "source": [
+    "### Exercise 5\n",
+    "\n",
+    "myNumber = 9\n",
+    "while True:\n",
+    "    number = int(raw_input(\"enter a number: \"))\n",
+    "    \n",
+    "    if number == myNumber:\n",
+    "        print \"Yippee! User guessed the right number\"\n",
+    "        break\n",
+    "    else:\n",
+    "        print \"keep on guessing...\"\n",
+    "        \n",
+    "### END CODE"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Are you using Celsius or Fahrenheit?asd\n",
+      "try again\n"
+     ]
+    }
+   ],
+   "source": [
+    "### Exercise 6\n",
+    "\n",
+    "temp = str(raw_input(\"Are you using Celsius or Fahrenheit?\"))\n",
+    "\n",
+    "if temp == \"Celsius\":\n",
+    "    celTemp = int(raw_input(\"what is the degree? \"))\n",
+    "    celTemp = (celTemp * 1.8) +32\n",
+    "    print float(celTemp)\n",
+    "elif temp == \"Fahrenheit\":\n",
+    "    fahTemp = int(raw_input(\"what is the degree? \"))\n",
+    "    fahTemp = (fahTemp - 32) * 5 / 9\n",
+    "    print float(fahTemp)\n",
+    "else:\n",
+    "    print \"try again\"\n",
+    "    \n",
+    "### END CODE"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "### Exercise 7\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "### Exercise 8\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "### Exercise 9\n",
+    "\n",
+    "while True:\n",
+    "    inputNumber = int(raw_input(\"enter a number: \"))\n",
+    "    \n",
+    "if inputNumber == 0:\n",
+    "    print outputNumber\n",
+    "    outputNumber = sum(inputNumber)\n",
+    "    break\n",
+    "else:\n",
+    "    print outputNumber"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "### Exercise 10\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 2",
+   "language": "python",
+   "name": "python2"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 2
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython2",
+   "version": "2.7.13"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
